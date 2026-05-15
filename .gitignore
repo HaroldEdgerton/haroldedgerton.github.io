@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor/project noise
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+tmp/
+.temp/
+.cache/
+
+# Node/package manager noise, if tooling is added later
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Local environment files
+.env
+.env.*
