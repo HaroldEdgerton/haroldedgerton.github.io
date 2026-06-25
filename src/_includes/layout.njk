@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ description | default('Edgerton House resident resources and community information.', true) }}">
+  <title>{{ title | default('Edgerton House', true) }} | Edgerton House</title>
+  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="/" aria-label="Edgerton House home">
+        <span class="brand-mark">EH</span>
+        <span><strong>Edgerton House</strong><small>MIT Graduate Residence</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        {% for item in navigation.top %}
+          {% if item.items %}
+            <div class="nav-group">
+              <a class="nav-top" href="{{ item.url }}" aria-haspopup="true">{{ item.label }}</a>
+              <div class="nav-dropdown" aria-label="{{ item.label }} pages">
+                {% for child in item.items %}
+                  <a href="{{ child.url }}">{{ child.label }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          {% else %}
+            <a class="nav-top" href="{{ item.url }}">{{ item.label }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+      <form class="site-search" action="/search/" role="search">
+        <label class="sr-only" for="site-search-input">Search Edgerton House</label>
+        <input id="site-search-input" type="search" name="q" placeholder="Search" autocomplete="off">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </header>
+  <main id="main" class="{{ mainClass | default('main-standard', true) }}">
+    {{ content | safe }}
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <h2>Edgerton House</h2>
+        <p>143 Albany Street<br>Cambridge, MA 02139</p>
+        <div class="footer-quick-links">
+          {% for link in navigation.quickLinks %}
+            <a href="{{ link.url }}">{{ link.label }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      {% for group in navigation.footer %}
+        <div>
+          <h2>{{ group.label }}</h2>
+          <ul>
+            {% for item in group.items %}
+              <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
+    <p class="footer-note">Static site rebuilt from the legacy Edgerton House website. Built with Eleventy.</p>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

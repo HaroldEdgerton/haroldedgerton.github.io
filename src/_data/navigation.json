@@ -1,0 +1,82 @@
+{
+  "top": [
+    { "label": "Home", "url": "/" },
+    { "label": "Calendar", "url": "/calendar/" },
+    {
+      "label": "Living Here",
+      "url": "/living-here/",
+      "items": [
+        { "label": "Guide", "url": "/living-here/guide/" },
+        { "label": "Policies", "url": "/living-here/policies/" },
+        { "label": "Waste and recycling", "url": "/living-here/waste/" },
+        { "label": "Floor plans", "url": "/living-here/floor-plans/" },
+        { "label": "Room photos", "url": "/living-here/room-photos/" }
+      ]
+    },
+    {
+      "label": "Resources",
+      "url": "/resources/",
+      "items": [
+        { "label": "Reservations", "url": "/resources/reservations/" },
+        { "label": "Calendar", "url": "/calendar/" },
+        { "label": "Music room", "url": "/resources/music-room/" },
+        { "label": "Forms", "url": "/resources/forms/" },
+        { "label": "Inventory", "url": "/resources/inventory/" },
+        { "label": "Movies", "url": "/resources/movies/" },
+        { "label": "Mailing lists", "url": "/resources/mailing-lists/" },
+        { "label": "Bicycles", "url": "/resources/bicycles/" },
+        { "label": "Gym", "url": "/resources/gym/" }
+      ]
+    },
+    {
+      "label": "People",
+      "url": "/about/",
+      "items": [
+        { "label": "Staff", "url": "/about/staff/" },
+        { "label": "Officers", "url": "/about/officers/" },
+        { "label": "Location", "url": "/about/location/" }
+      ]
+    },
+    { "label": "News", "url": "/news/" }
+  ],
+  "footer": [
+    {
+      "label": "Living Here",
+      "items": [
+        { "label": "Guide", "url": "/living-here/guide/" },
+        { "label": "Policies", "url": "/living-here/policies/" },
+        { "label": "Waste and recycling", "url": "/living-here/waste/" },
+        { "label": "Floor plans", "url": "/living-here/floor-plans/" },
+        { "label": "Room photos", "url": "/living-here/room-photos/" }
+      ]
+    },
+    {
+      "label": "Resources",
+      "items": [
+        { "label": "Reservations", "url": "/resources/reservations/" },
+        { "label": "Music room", "url": "/resources/music-room/" },
+        { "label": "Forms", "url": "/resources/forms/" },
+        { "label": "Inventory", "url": "/resources/inventory/" },
+        { "label": "Movies", "url": "/resources/movies/" },
+        { "label": "Mailing lists", "url": "/resources/mailing-lists/" },
+        { "label": "Bicycles", "url": "/resources/bicycles/" },
+        { "label": "Gym", "url": "/resources/gym/" }
+      ]
+    },
+    {
+      "label": "People",
+      "items": [
+        { "label": "Staff", "url": "/about/staff/" },
+        { "label": "Officers", "url": "/about/officers/" },
+        { "label": "Location", "url": "/about/location/" },
+        { "label": "News", "url": "/news/" }
+      ]
+    }
+  ],
+  "quickLinks": [
+    { "label": "Request repairs", "url": "https://atlas.mit.edu/atlas/Main.action?tab=home&sub=group_servreq" },
+    { "label": "Anonymous feedback", "url": "https://docs.google.com/forms/d/e/1FAIpQLScM6dE11ZsrL2Nw4RFFKFAsqZx1kaKU8CCnwGxbtaSjGmh_oQ/viewform" },
+    { "label": "Resident Slack", "url": "https://mit-edgerton-house.slack.com/" },
+    { "label": "Instagram", "url": "https://www.instagram.com/edgertonhouse" }
+  ]
+}
