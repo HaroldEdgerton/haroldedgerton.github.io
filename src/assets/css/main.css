@@ -278,9 +278,9 @@ td {
   padding: 7rem max(1rem, calc((100vw - var(--wide-max)) / 2)) 5rem;
   display: flex;
   align-items: end;
-  background-image: linear-gradient(90deg, rgba(20, 30, 38, 0.78), rgba(20, 30, 38, 0.2)), var(--hero-image);
+  background-image: linear-gradient(90deg, rgba(20, 30, 38, 0.64), rgba(20, 30, 38, 0.12)), var(--hero-image);
   background-size: cover;
-  background-position: center;
+  background-position: center 78%;
   color: var(--white);
 }
 
@@ -820,6 +820,17 @@ time,
   padding: 0.65rem 0.75rem;
   color: var(--muted);
   font-weight: 700;
+}
+
+.event-flyer {
+  width: min(100%, 430px);
+  margin: 1.5rem auto;
+}
+
+.event-flyer img {
+  display: block;
+  width: 100%;
+  margin: 0;
 }
 
 .site-footer {

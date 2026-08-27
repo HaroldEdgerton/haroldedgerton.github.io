@@ -75,8 +75,7 @@
   ],
   "quickLinks": [
     { "label": "Request repairs", "url": "https://atlas.mit.edu/atlas/Main.action?tab=home&sub=group_servreq" },
-    { "label": "Anonymous feedback", "url": "https://docs.google.com/forms/d/e/1FAIpQLScM6dE11ZsrL2Nw4RFFKFAsqZx1kaKU8CCnwGxbtaSjGmh_oQ/viewform" },
     { "label": "Resident Slack", "url": "https://mit-edgerton-house.slack.com/" },
-    { "label": "Instagram", "url": "https://www.instagram.com/edgertonhouse" }
+    { "label": "Instagram", "url": "https://www.instagram.com/edgertonhouse.mit/" }
   ]
 }

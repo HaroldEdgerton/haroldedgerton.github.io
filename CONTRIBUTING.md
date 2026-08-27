@@ -69,7 +69,7 @@ If a legacy PDF or image must keep its old URL, preserve it under `src/wp-conten
 
 External forms, calendars, and reservation systems are embedded or linked from static pages. Keep those service links visible in the relevant page source so future maintainers can update them quickly.
 
-The reservation form uses Formspree. If ownership changes, update the endpoint in:
+The reservation request uses a Google Form. If it is replaced, update its published responder link in:
 
 ```text
 src/resources/reservations/index.njk
@@ -82,6 +82,6 @@ Before publishing, check:
 - The page builds with `npm run build`.
 - Header dropdowns still work on desktop and mobile.
 - Search results still load at `/search/`.
-- Reservation form still points to the intended Formspree endpoint.
+- Reservation request link still opens the intended Google Form.
 - Important PDFs and images still load.
 - Old URLs that residents may have bookmarked still redirect.

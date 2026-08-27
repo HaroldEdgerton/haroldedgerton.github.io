@@ -109,7 +109,7 @@
     "url": "/resources/forms/",
     "section": "Resources",
     "summary": "Common resident forms, reservation documents, and housing links.",
-    "body": "Reserving areas of Edgerton Review the Policy for Location Use and Reservations Make your reservation online Print out some reservation signs To create a guest list for your event, inquire at the front desk or print yourself a Temporary Guest List Suggest a purchase If you would like to suggest that the Edgerton House Association buy something for residents, please email the resources chair with your suggestion or fill out the anonymous feedback form . Transferring within Edgerton If you have a renewable housing contract in Edgerton House, you can enter the transfer housing lottery to request a transfer to a different room in Edgerton House. You can read about this process in the Transfer Lottery Rules . Also check out the Transfer Cheat Sheet . Leaving Edgerton If you are leaving Edgerton as a resident, review the Termination Checklist to make sure you do not forget anything."
+    "body": "Reserving areas of Edgerton Review the Policy for Location Use and Reservations Make your reservation online Print out some reservation signs To create a guest list for your event, inquire at the front desk or print yourself a Temporary Guest List Suggest a purchase If you would like to suggest that the Edgerton House Association buy something for residents, please email the resources chair with your suggestion. Transferring within Edgerton If you have a renewable housing contract in Edgerton House, you can enter the transfer housing lottery to request a transfer to a different room in Edgerton House. You can read about this process in the Transfer Lottery Rules . Also check out the Transfer Cheat Sheet . Leaving Edgerton If you are leaving Edgerton as a resident, review the Termination Checklist to make sure you do not forget anything."
   },
   {
     "title": "House Inventory",
@@ -130,7 +130,7 @@
     "url": "/resources/mailing-lists/",
     "section": "Resources",
     "summary": "Official and resident mailing lists for Edgerton.",
-    "body": "We have two official house mailing lists, eh-announce and eh-events, and one resident mailing list, eh-open. The house officers, masters, and manager use the eh-announce list to pass along important community bulletins and the eh-events list to communicate house and campus events. The eh-open list is used by Edgerton residents to discuss community-related issues. We try to keep the mailing list memberships current, but if you find yourself accidentally omitted from any of these lists, please visit the respective mailing list page and alter your subscription settings: eh-announce eh-events eh-open To organize and join pick up games of any kind, sign up for eh-sports ."
+    "body": "Email Lists We have two official house mailing lists, eh-announce and eh-events, and one resident mailing list, eh-open. The house officers, heads of house, and manager use the eh-announce list to pass along important community bulletins and the eh-events list to communicate house and campus events. The eh-open list is used by Edgerton residents to discuss community-related issues. We try to keep the mailing list memberships current, but if you find yourself accidentally omitted from any of these lists, please visit the respective mailing list page and alter your subscription settings: eh-announce eh-events eh-open To organize and join pick up games of any kind, sign up for eh-sports. Slack Workspace Edgerton House has an official Slack workspace within the MIT enterprise where you can post move-out sales, discuss AC/heating issues, and see Edgerton House social events in one place. The Slack group will exist in addition to existing communication channels. Slack workspace URL: mit-edgerton-house.slack.com We will periodically add new residents to the Slack group, eh-open, and eh-announce. If you would like to be added sooner, please reach out to eha-secretary@mit.edu and eha-it@mit.edu. Being a part of the Slack group means agreeing to adhere to the Edgerton House Slack group community guidelines. If you would prefer to opt out of the Slack, please also reach out to eha-secretary@mit.edu and eha-it@mit.edu."
   },
   {
     "title": "Bicycles",
@@ -145,6 +145,20 @@
     "section": "Resources",
     "summary": "Photos and overview of the Edgerton exercise room.",
     "body": "Suggestion box and scales Full body workout and stretching area Ellipticals and treadmills Power rack and incline benches Stationary bike, dumbbells, leg press Punching bag and auxiliary machines Original artwork"
+  },
+  {
+    "title": "Flower Pressing Workshop",
+    "url": "/news/2026-06-25-flower-pressing-workshop/",
+    "section": "News",
+    "summary": "Residents gathered to create pressed-flower art at an Edgerton House workshop on June 25, 2026.",
+    "body": "Edgerton House and Graduate Resident Life hosted a flower pressing workshop from 11 AM to 1 PM. Residents used fresh flowers to make their own pressed-flower pieces, with supplies available and the option to bring favorite blooms from home."
+  },
+  {
+    "title": "End-of-Semester Study Break",
+    "url": "/news/2026-05-14-end-of-semester-study-break/",
+    "section": "News",
+    "summary": "Edgerton residents gathered for food and conversation before finals on May 14, 2026.",
+    "body": "As the spring semester came to a close, Edgerton residents filled the Large Lounge for a study break with food, conversation, and a chance to catch up with neighbors before finals."
   },
   {
     "title": "Pizza Party",

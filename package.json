@@ -5,8 +5,8 @@
   "type": "module",
   "description": "Static Eleventy site for Edgerton House.",
   "scripts": {
-    "build": "eleventy",
-    "serve": "eleventy --serve --port=8001",
+    "build": "node tools/clean-site-output.mjs && eleventy",
+    "serve": "node tools/clean-site-output.mjs && eleventy --serve --port=8001",
     "convert:eleventy": "node tools/convert-site-to-eleventy.mjs"
   },
   "devDependencies": {

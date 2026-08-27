@@ -73,13 +73,7 @@ Files copied from the old website may also live under `src/wp-content/` or `src/
 
 ## Reservations
 
-The reservation page currently submits to Formspree:
-
-```text
-https://formspree.io/f/xgodgkaa
-```
-
-Update `src/resources/reservations/index.njk` if that endpoint changes.
+The reservation page links to the EHA Google Form. Update the published responder link in `src/resources/reservations/index.njk` if the form is replaced. The reservations calendar is embedded from `eha-webmaster@mit.edu` on the same page and on `/calendar/` and `/events/`.
 
 ## Legacy Content Policy
 
